@@ -256,6 +256,12 @@
     </style>
   </head>
   <body>
+    // Enable navigation prompt
+window.onbeforeunload = function() {
+    return true;
+};
+// Remove navigation prompt
+window.onbeforeunload = null;
     <div class="info">
       <h1>LONG DOGE CHALLENGE</h1>
       <div class="stat">
