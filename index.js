@@ -14,6 +14,8 @@ const rainbowsEl = document.querySelector("#rainbow")
 const dogePrimeEl = document.querySelector("#dogeprime")
 const secretWowEl = document.querySelector("#secretwow")
 const fiboWowEl = document.querySelector("#fibo")
+const isOnMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+
 
 let wows = 0
 let largewows = 0
